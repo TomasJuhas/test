@@ -129,21 +129,26 @@ body{
 }
 
 .nav_bar{
-    margin-left:280px;
     display: flex;
     flex-direction: row;
     height: 64px;
     background-color: #00A3FF;
     color:white;
+    width:100%;
+}
+
+.nav_gap{
+    display: flex;
+    margin-left: 280px;
 }
 
 .nav_wrap{
     display: flex;
     align-items: center;
-    gap:20px
+    gap:20px;
 }
 
-.nav_bar > img{
+.nav_gap > img{
     filter: invert();
     max-width: 40px;
     max-height: auto;
@@ -174,7 +179,7 @@ body{
 .button_div{
     display: flex;
     flex-direction: row-reverse;
-    width: 100em;
+    width:29.5em;
 }
 
 .button_div > button{
