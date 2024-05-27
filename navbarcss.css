@@ -179,7 +179,7 @@ body{
 .button_div{
     display: flex;
     flex-direction: row-reverse;
-    width:29.5em;
+    width: 100em;
 }
 
 .button_div > button{
